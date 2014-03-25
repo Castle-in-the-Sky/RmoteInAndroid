@@ -1,0 +1,706 @@
+﻿<resources>
+
+    <string name="app_name">Remote</string>
+    <string name="action_setting">Remote</string>
+    <string name="menu_settings">Settings</string>
+    <string name="device_name">CTRL</string>
+    <string name="toast">TOAST</string>
+    <string name="timeout">Timeout</string>
+    <string name="study_alert"><![CDATA[Please specify a button to learn"]]></string>
+    <string name="study_info"><![CDATA[Please be learned remote control transmitter head close alignment receiver transmitter head, a distance of about 3CM, and long learning keys 1 to 2S]]></string>
+    <string name="study_loading">study loading</string>
+    <string name="study_timeout">Study data timeout quit</string>
+    <string name="study_save">Save data</string>
+    <string name="study_exit">Quit learning</string>
+    <string name="about_ok">OK</string>
+    <string name="set_menu">SetUp</string>
+    <string name="updata_end">Database updata finished</string>
+    <string name=" first_updata_end">First  Database initial finished</string>
+  <!-- pop windows -->
+    <string name="setup">Setup</string>
+      <!-- setup windows -->
+    <string name="vibrate">Vibrate</string>
+    <string name="terminal">Terminal</string>
+    <!-- remote list -->
+    <string name="input_name">Input Name</string>
+    <string name="air_power_off">Mode:OFF</string>
+    <string name="language">
+<![CDATA[
+	Software installation:"*. Apk" files copied or downloaded to the phone memory card 
+    through the "document management" or "File Manager" to find the file, 
+    click on the relevant directory follow the prompts to install, 
+    the system will generate: "mobile phone remote control icon;\n
+	]]>
+    </string>
+    <string name="about_info">
+<![CDATA[ audiomobile CO.,LTD.\n
+        							   ]]>
+    </string>
+    <string name="Long"><![CDATA[ audiomobile CO.,LTD.]]></string>
+    <string name="str_about">
+<![CDATA[
+	Software information:\n
+	Name: all remote \n
+	Version: V0.0.1Beta\n
+	\n
+	Contact:\n
+	Company: audiomobile \n
+	
+	
+	]]>
+    </string>
+    <string name="LongAbout"><![CDATA[  audiomobile  \n]]></string>
+    <string name="Clean"></string>
+    <string name="show">Show the key value</string>
+
+    <!-- Splash -->
+    <string name="start_loading"><![CDATA[Loading...]]></string>
+    <!-- MainActivity -->
+    <string name="str_title">Warning</string>
+    <string name="str_message">Quit?</string>
+    <string name="str_ok">OK</string>
+    <string name="str_back">Return</string>
+    <!-- Select -->
+    <string name="device_type">Device Type</string>
+    <string name="name_text">Brand Name</string>
+    <string name="cur_name">Current Device</string>
+    <string name="remote_name">Device Name</string>
+    <string name="count_text"></string>
+    <string name="auto_text">Auto</string>
+    <string name="stop_text">Stop</string>
+    <string name="up_text">Up</string>
+    <string name="down_text">Down</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="manual_text">manually</string>
+    <string name="save_text">Save</string>
+    <string name="change_name">Update</string>
+
+    <!-- dialog_inputname -->
+    <string name="textinputname">Please input  name</string>
+    <!-- dialog_quit -->
+    <string name="textQuitWarning">Quit remote control</string>
+
+    <!-- NUM -->
+    <string name="bt_num0">0</string>
+    <string name="bt_num1">1</string>
+    <string name="bt_num2">2</string>
+    <string name="bt_num3">3</string>
+    <string name="bt_num4">4</string>
+    <string name="bt_num5">5</string>
+    <string name="bt_num6">6</string>
+    <string name="bt_num7">7</string>
+    <string name="bt_num8">8</string>
+    <string name="bt_num9">9</string>
+    <string name="bt_num10"><![CDATA[-/]]></string>
+    <string name="bt_bck">Return</string>
+    <!-- TV -->
+    <string name="tv">tv</string>
+    <string name="str_tv">TV</string>
+    <string name="tv_power">ON/OFF</string>
+    <string name="tv_mute">Mute</string>
+    <string name="tv_key0">0</string>
+    <string name="tv_key1">1</string>
+    <string name="tv_key2">2</string>
+    <string name="tv_key3">3</string>
+    <string name="tv_key4">4</string>
+    <string name="tv_key5">5</string>
+    <string name="tv_key6">6</string>
+    <string name="tv_key7">7</string>
+    <string name="tv_key8">8</string>
+    <string name="tv_key9">9</string>
+    <string name="tv_key10"><![CDATA[-/]]></string>
+    <string name="tv_menu">Menu</string>
+    <string name="tv_chadd">CH+</string>
+    <string name="tv_chsub">CH-</string>
+    <string name="tv_voladd">Vol+</string>
+    <string name="tv_volsub">Vol-</string>
+    <string name="tv_ok">OK</string>
+    <string name="tv_av">AV/TV</string>
+    <string name="tv_back">Return</string>
+    <string name="up">Up</string> 
+<string name="down">Down</string> 
+<string name="left">Left</string> 
+<string name="right">Right</string> 
+    <!-- STB -->
+    <string name="stb">stb</string>
+    <string name="str_stb">STB</string>
+    <string name="stb_wait">Standby</string>
+    <string name="stb_watch">Guides</string>
+    <string name="stb_back">Return</string>
+    <string name="stb_key0">0</string>
+    <string name="stb_key1">1</string>
+    <string name="stb_key2">2</string>
+    <string name="stb_key3">3</string>
+    <string name="stb_key4">4</string>
+    <string name="stb_key5">5</string>
+    <string name="stb_key6">6</string>
+    <string name="stb_key7">7</string>
+    <string name="stb_key8">8</string>
+    <string name="stb_key9">9</string>
+    <string name="stb_chadd">CH+</string>
+    <string name="stb_chsub">CH-</string>
+    <string name="stb_voladd">Vol+</string>
+    <string name="stb_volsub">Vol-</string>
+    <string name="stb_up">Up</string>
+    <string name="stb_down">Down</string>
+    <string name="stb_left">Left</string>
+    <string name="stb_right">Right</string>
+    <string name="stb_ok">OK</string>
+    <string name="stb_menu">Menu</string>
+    <!-- DVD -->
+    <string name="dvd">dvd</string>
+    <string name="str_dvd">DVD</string>
+    <string name="dvd_power">ON/OF</string>
+    <string name="dvd_mute">Mute</string>
+    <string name="dvd_quickforward">>></string>
+    <string name="dvd_quickback"><![CDATA[<<]]></string>
+    <string name="dvd_play">Play</string>
+    <string name="dvd_stop">Stop</string>
+    <string name="dvd_upsong"><![CDATA[|<<]]></string>
+    <string name="dvd_downsong">>>|</string>
+    <string name="dvd_pause">Pause</string>
+    <string name="dvd_av">Format</string>
+    <string name="dvd_title">Title</string>
+    <string name="dvd_open">Pass in and out</string>
+    <string name="dvd_menu">Menu</string>
+    <string name="dvd_back">Return</string>
+    <string name="dvd_up">Up</string>
+    <string name="dvd_down">Down</string>
+    <string name="dvd_left">Left</string>
+    <string name="dvd_right">Right</string>
+    <string name="dvd_ok">OK</string>
+
+    <!-- fan -->
+    <string name="fan">fan</string>
+    <string name="str_fan">Fan</string>
+    <string name="fan_power">ON/OFF</string>
+    <string name="fan_mode"> Mode</string>
+    <string name="fan_li">Anion</string>
+    <string name="fan_speed">Air Volume</string>
+    <string name="fan_key0">ON/Wind</string>
+    <string name="fan_speedlow">Low Speed</string>
+    <string name="fan_speedmiddle">Medium Speed</string>
+    <string name="fan_speedhight">High Speed</string>
+    <string name="fan_sleep">Sleep</string>
+    <string name="fan_freq">Shake</string>
+    <string name="fan_cool">Cold</string>
+    <string name="fan_timer">Timing</string>
+    <string name="fan_light">Light</string>
+    <string name="fan_key1">1</string>
+    <string name="fan_key2">2</string>
+    <string name="fan_key3">3</string>
+    <string name="fan_key4">4</string>
+    <string name="fan_key5">5</string>
+    <string name="fan_key6">6</string>
+    <string name="fan_key7">7</string>
+    <string name="fan_key8">8</string>
+    <string name="fan_key9">9</string>
+
+    <!-- pjt -->
+    <string name="pjt">pjt</string>
+    <string name="str_pjt">PJT</string>
+    <string name="pjt_power_on">ON</string>
+    <string name="pjt_power_off">OFF</string>
+    <string name="pjt_computer">PC</string>
+    <string name="pjt_video">VIDEO</string>
+    <string name="pjt_sign">Source</string>
+    <string name="pjt_zoomadd">Zoom +</string>
+    <string name="pjt_zoomsub">Zoom -</string>
+    <string name="pjt_pictureadd">Screens+</string>
+    <string name="pjt_picturesub">Screens-</string>
+    <string name="pjt_brightness">Brightness</string>
+    <string name="pjt_auto">Auto</string>
+    <string name="pjt_exit">Quit</string>
+    <string name="pjt_menu">Menu</string>
+    <string name="pjt_pause">Pause</string>
+    <string name="pjt_mute">Mute</string>
+    <string name="pjt_voladd">VOL+</string>
+    <string name="pjt_volsub">VOL-</string>
+    <string name="pjt_up">UP</string>
+    <string name="pjt_down">DOWN</string>
+    <string name="pjt_left">LEFT</string>
+    <string name="pjt_right">RIGHT</string>
+    <string name="pjt_ok">OK</string>
+    <!-- AIR -->
+    <string name="air">air</string>
+    <string name="str_air">AIR</string>
+    <string name="air_power">ON/OF</string>
+    <string name="air_tempadd">Up</string>
+    <string name="air_tempsub">Down</string>
+    <string name="air_mode">Mode</string>
+    <string name="air_wind_count">Air volume</string>
+    <string name="air_wind_dir">Manually Wind</string>
+    <string name="air_wind_auto_dir">Auto Wind</string>
+    <string name="air_mode_val">Mode:</string>
+    <string name="air_temp_val">Temperature:</string>
+    <string name="air_wind_dir_val">Wind Dir:</string>
+    <string name="air_wind_val">Air volume:</string>
+    <string name="air_wind_count_value_1">Auto</string>
+    <string name="air_wind_count_value_2">Low</string>
+    <string name="air_wind_count_value_3">middle</string>
+    <string name="air_wind_count_value_4">High</string>
+    <string name="air_wind_dir_value_1">Up</string>
+    <string name="air_wind_dir_value_2">middle</string>
+    <string name="air_wind_dir_value_3">Down</string>
+    <string name="air_wind_dir_value_4">Auto</string>
+    <string name="air_wind_auto_dir_value_1">ON</string>
+    <string name="air_wind_auto_dir_value_0">OFF</string>
+    <string name="air_mode_value_1">Auto</string>
+    <string name="air_mode_value_2">Refrigerating</string>
+    <string name="air_mode_value_3">Dehumidifying</string>
+    <string name="air_mode_value_4">Ventilation</string>
+    <string name="air_mode_value_5">Heating</string>
+    <string name="d">Degree</string>
+
+    <!-- MENU -->
+    <string name="study">Learn</string>
+     <string name="remote">Remote</string>
+    <string name="options">Select</string>
+    <string name="about">ABOUT</string>
+    <string name="dialog_ok">OK</string>
+
+    <!-- title -->
+    <string name="title_activity_main">All Remote Control </string>
+    <string name="title_studying"><![CDATA[Are learning...]]></string>
+    <string name="title_study"><![CDATA[Learn]]></string>
+    <string name="title_studyed">Learning success</string>
+    <string name="title_about">About</string>
+    <string name="title_device_type">Select Device Type</string>
+    <string name="title_devices_list"> Devices List</string>
+    <string name="title_remote_select">Select Remote　Code</string>
+
+    <!-- other -->
+    <string name="name">Device Name</string>
+
+    <string name="input">Input</string>
+    <string name="option_info"><![CDATA[The first use of the code operation: turn on the device, select the device type, brand or region name and then press automatic Jianniu, paired device reaction: such as switch machines, and out of positions, the volume change action, press the stopthen save the check button is normal, not normal, repeat operation can also manually upward, downward search single brand or a single area to search for matching less than All brand or region within the search code.]]></string>
+    <string name="max_devices">The devices is out of Max devices capacity</string>
+    <!-- popup -->
+ 
+    <!-- REMOTE SELECT -->
+    <string name="general">General </string>
+    <!-- SETTINGS -->
+    <string name="learn_funcation">LEARN FUNCATION</string>
+    <string name="audio_exist">REMOTE EXIST</string>
+    <string name="vibration">VIBRATION </string>
+    <string name="learn_remote">LEARN REMOTE </string>
+    <string name="showUI_when_send">SEND REMOTE FLASH</string>
+    <string name="contact_us">CONTACT US</string>
+    
+    
+    
+    <string name="createdBy_title1">IR REMOTE BY AUDIO JACK</string>
+    <string name="createdBytitle2">CREATED BY @ JIANG SHENG</string>
+    
+       <string name="twofortyfouram_locale_breadcrumb_format">%1$s%2$s%3$s</string>
+    <string name="twofortyfouram_locale_breadcrumb_separator">" > "</string>
+    <string name="twofortyfouram_locale_menu_dontsave">Cancel</string>
+    <string name="twofortyfouram_locale_menu_help">Help</string>
+    <string name="twofortyfouram_locale_menu_save">Done</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_install_text_phone">"This app won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet">"This app won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_button">Get Google Play services</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_enable_text">"This app won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_update_text">"This app won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="auth_client_availability_notification_title">Install/Update/Enable Google Play services</string>
+    <string name="auth_client_play_services_err_notification_msg">Google Play services error</string>
+    <string name="auth_client_requested_by_msg">Requested by %1$s</string>
+    <string name="location_client_ulr_inactive_age_under_13">AgeUnder13</string>
+    <string name="location_client_ulr_inactive_age_unknown">AgeUnknown</string>
+    <string name="location_client_ulr_inactive_unknown_restriction">UnknownRestriction</string>
+    <string name="ga_trackingId">UA-39394953-2</string>
+    <string name="err_internet">"Couldn't connect to the server. Please try again."</string>
+    <string name="err_device_missing">This device is out of sync. Please try again.</string>
+    <string name="err_strangeERR">An unknown error occurred. Please try again.</string>
+    <string name="err_internalStorage">"There is something wrong with your internal storage . Please check it and try again (maybe it's full)"</string>
+    <string name="err_other">"It seems like the device you are searching is not yet in out database. Please email us the details of your device and we'll usually add it within a week."</string>
+    <string name="err_parse">"Couldn't read response from server. Please try again."</string>
+    <string name="choose_devices">CHOOSE YOUR DEVICES</string>
+    <string name="choose_devices_help">You can add a remote for your device(s) now. First, select the type of device you want to control.</string>
+    <string name="choose_brand_help">"We know that the device you want to control is a %s. Now select it's brand."</string>
+    <string name="choose_model_help">"Your %s is almost ready. If you know it's model, select it from the list below. If not, simply select OTHER."</string>
+    <string name="choose_fct">CHOOSE FUNCTION</string>
+    <string name="choose_function_title">BECAUSE YOUR DEVICE SEEMS DIFFERENT</string>
+    <string name="choose_function_why">"than a classic remote control 
+ please choose a function 
+ to be tested"</string>
+
+    <string name="test_devices_help">"We now need to make sure that our remote works with your device. To test that, we're going to try a function of your device, usually POWER ON. 
+Make sure you're pointing your phone at the device while we're doing that."</string>
+    <string name="test_devices_none">"No code worked for TYPE BRAND . You can cancel this and make sure it didn't work or you can send us an email. 
+Send an email ?"</string>
+    <string name="test_device_no_power">It appears this model (%s) has no POWER and it has to be selected separately from the list to be tested</string>
+    <string name="test_device_attention">In this flow we can only test POWER ON . If you think your device has no power please go back to the models list and test them manually one by one</string>
+    <string name="list_remotes_title">LIST REMOTES</string>
+    <string name="list_remotes_noRem">"We're sorry but you don't have any remotes with this function."</string>
+    <string name="list_remotes_help">"From the remotes list, you can hide remotes by tapping the green eye, edit items by long tapping any remote, reorder them by dragging the ≡, or set up advanced commands by using the macros. 
+
+Macros are very useful if you've got that perfect “Setting” for one of your appliances. For instance, say you've got an air conditioner that starts up on a higher temperature; you can “build” a macro that will turn on your air conditioner, as well as turning the temperature down with ONE PUSH OF A BUTTON. 
+
+This means that macros are used to “stack commands”, or you can delay settings and such by using the “delay” function within the Macros feature. If you've got more than one thing that needs to be done at one time, macros allow you to do it with the push of a button! (Yes, just one.)"</string>
+    <string name="list_remotes_delete">The remoted you want to delete is: %s . Proceed?</string>
+    <string name="learn_button_delete">The learn button you want to delete is: %s . Proceed?</string>
+    <string name="list_remotes_noButtons">This remote has no buttons</string>
+    <string name="list_remote_remDeleted">Remote deleted</string>
+    <string name="enter_new_remote_name">Please enter a new name for this remote</string>
+    <string name="enter_new_button_name">Please enter a new name for this button</string>
+    <string name="new_button">Button</string>
+     <string name="learn_settings_title">Remote Learn Settings</string>
+    
+    <string name="list_remotes_macrosTitle">MY MACRO COMMANDS</string>
+    <string name="macro_add_new">ADD NEW MACRO</string>
+    <string name="list_macro_title">YOUR MACROS</string>
+    <string name="enter_name_newMacro">Please enter a name for your new Macro</string>
+    <string name="enter_name_null">Please enter a name for your new Macro first</string>
+    <string name="macro_add_newFunction">Add New Function</string>
+    <string name="macro_functions_title">MMMM</string>
+    <string name="macro_functionAddFCT">ADD NEW FUNCTION</string>
+    <string name="macro_delete_function">Are you sure you want to delete %1$s from %2$s ?</string>
+    <string name="macro_delete_macro">Are you sure you want to delete this macro: %s ?</string>
+    <string name="macro_list_help">"Macros are very useful if you've got that perfect “Setting” for one of your appliances. For instance, say you've got an air conditioner that starts up on a higher temperature; you can “build” a macro that will turn on your air conditioner, as well as turning the temperature down with ONE PUSH OF A BUTTON. 
+
+This means that macros are used to “stack commands”, or you can delay settings and such by using the “delay” function within the Macros feature. If you've got more than one thing that needs to be done at one time, macros allow you to do it with the push of a button! (Yes, just one.)"</string>
+    <string name="macro_functions_list_help">These are the commands that will be sent when this macro is used.</string>
+    <string name="list_remotes_help_macro">This is the list with all your remotes, smart or stock</string>
+    <string name="list_own_functions">MY LEARNED FUNCTIONS</string>
+    <string name="list_own_functions_title">MY FUNCTIONS</string>
+    <string name="list_own_addFCT">ADD FUNCTION</string>
+    <string name="list_own_deletFCT">Are you sure you want to delete %s ?</string>
+    <string name="list_own_list_help">INFORMATION</string>
+    <string name="own_functions_help">"Here you have a list of the functions you have learned or added by yourself. If you want to use a device that we don't support yet, you can simply add it's commands here, and then assign them to a Smart Remote."</string>
+    <string name="enter_name_samsung">Please enter a name for your learned command, and the IR code to control it, in Pronto HEX format.</string>
+    <string name="enter_name_htc">"1. Enter a name for your command
+ 2. Hold your plastic remote 0-1 inch away from the phone's sensor 
+ 3. Hold pressed the button on the original remote you want to record.
+ 4. Unless you know the hex code, don't modify the second input box"</string>
+    <string name="list_remotes_functions_help">Choose function to be added on the custom remote</string>
+    <string name="settings_noRemotes">In order to add a smart remote you need at least a stock one</string>
+    <string name="enter_name">Please enter a name for your custom remote</string>
+    <string name="custom_remote_noOthers">You do not have a remote that has the function you selected .</string>
+    <string name="custom_help">"To create your own custom remote tap each button to assign a function to it.
+
+ You are free to assign any function from any of your other remotes, and you can add as many buttons as you wish to the right side as well."</string>
+    <string name="remote_custom_deleteButton">Are you sure you want to remove BUTTON from the current smart remote?</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_selection">"Unfortunately for your current selection we don't have devices . Please contact us and we will get back to you soon! Email us?"</string>
+    <string name="other">"It looks like the device you're looking for isn't here, but it may be in a different category. 
+Keep in mind that:
+ - Cable/Satellite devices are in Set Top Box
+ - Home Theaters are in AV System
+ - Movie streamers are in Media Manager
+ - and other combos can be in different categories
+
+ If however you believe your device is missing, please send us an email and we'll try to add it in less than 2 weeks.
+"</string>
+    <string name="other_no_report">"It looks like the device you're looking for isn't here, but it may be in a different category. 
+Keep in mind that:
+ - Cable/Satellite devices are in Set Top Box
+ - Home Theaters are in AV System
+ - Movie streamers are in Media Manager
+ - and other combos can be in different categories
+
+Also, you can try pressing "<b>YES</b>" even if the command didn't work for your model, as there's a high chance that the other buttons will work and you will find replacements using the "<b>COMPATIBLE SERVER COMMANDS</b> feature in the <b>EDIT MODE</b>.</string>
+    <string name="prepareDeviceForTesting">You should prepare your device for testing</string>
+    <string name="preparedForChanges">to notice any changes and decide if it worked</string>
+    <string name="noMoreCodes">"We tested all the codes . Please check if the model you chosen is OK, and if it's still not working, drop us an email."</string>
+    <string name="click_test">You have to first TEST your device</string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="settings_title2">ABOUT THE APP</string>
+    <string name="err_title_info">INFORMATION</string>
+    <string name="err_title_warning">WARNING</string>
+    <string name="err_title_err">ERROR</string>
+    <string name="tag">code</string>
+    <string name="tag_number">number</string>
+    <string name="function_unset">UNSET</string>
+    <string name="device_missing_message">"Please enter the details of the missing device, including the full Brand and Model name when sending your report.
+ We will start working on adding it to our database within a week, and usually the device gets added within two weeks. Please note that for some devices it can take longer, although we're doing our best to be as fast as possible.
+Also please keep in mind that other models of the same brand usually use the same remote, so feel free to try those first"</string>
+    <string name="device_missing_message_pirate">"Unfortunately we can't offer you support right now because you're not using the latest version of Smart Remote. 
+We are adding new support for new devices on every update, and our services update daily, so we can only offer support to customers using the latest version of our app. 
+
+Do you want to update now?"</string>
+    <string name="other_samsung_email_register">"It seems the device you tested has not responded to our command . You can cancel and make sure you have tested all models or you can send us an email and we'll get back to you"</string>
+    <string name="other_samsung_email_register2">@string/other</string>
+    <string name="other_samsung_cancel">CANCEL</string>
+    <string name="other_report_sent">Your report has been sent .</string>
+    <string name="other_report_send">SEND REPORT</string>
+    <string name="other_htc_email_register">@string/other</string>
+    <string name="other_htc_register">SMART REMOTE</string>
+    <string name="other_htc_email">EMAIL</string>
+    <string name="other_htc_report">REPORT</string>
+    <string name="tut_title_1">THE MAIN REMOTE SCREEN</string>
+    <string name="tut_text_1">"You can change between remotes by tapping on the remote name or the arrows by the name.
+ The settings button on the upper right allows you to customize and add more stuff."</string>
+    <string name="tut_title_2">SETTINGS</string>
+    <string name="tut_text_2">On the Settings screen you can control most of the content in the app. The core-feature though is the Smart Remote, which has assignable buttons on which you can add functions from any remote, as well as macros.</string>
+    <string name="tut_title_3">REMOTES LIST</string>
+    <string name="tut_text_3">"View your remotes, add macros 
+ or learn new functions, edit any remote by long-pressing it's name"</string>
+    <string name="tut_title_4">QUICK EDIT REMOTE</string>
+    <string name="tut_text_4">You can also edit a remote by pressing the Settings button at the top</string>
+    <string name="tut_title_5">EDIT MODE</string>
+    <string name="tut_text_5">Single-tap any button to select it, tap any empty space to move it there, or the plus at the bottom left to remove it. To remove all buttons, shake your phone, and to add new ones tap the plus at the bottom left. To edit any button, long-press it.</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="ask_for_review">"It looks like you've been enjoying Smart Remote. Would you like to give us a rating on Google Play? Good reviews help us improve this product every day!
+
+Thank you!"</string>
+    <string name="information">INFORMATION</string>
+    <string name="review_thank_you">Thank you, we really appreciate it!</string>
+    <string name="clear_buttons_confirm">Do you want to clear the buttons from the remote, so you can re-add them on any spot you want?</string>
+    <string name="remote_saved">Remote saved</string>
+    <string name="error">ERROR</string>
+    <string name="please_enter_remote_name">Please enter a custom remote name first</string>
+    <string name="please_enter_button_name">Please enter a button name first</string>
+    <string name="other_not_sure">OTHER / NOT SURE</string>
+    <string name="no">NO</string>
+    <string name="x_codes_remaining">codes remaining</string>
+    <string name="execute">execute</string>
+    <string name="share_s4">"Check out Smart IR Remote for Samsung/HTC! It's awesome!"</string>
+    <string name="share_htc">"Check out Smart Remote for HTC One! It's awesome!"</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="reLearn">ReLearn</string>
+    <string name="rename">Rename</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="email">EMAIL</string>
+    <string name="app_name_s4">SMART REMOTE CONTROL FOR GALAXY S4</string>
+    <string name="app_name_htc">SMART REMOTE CONTROL FOR HTC ONE</string>
+    <string name="enter_details">Enter details here:</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="please_type_model">Please type in your model</string>
+    <string name="please_type_brand">Please type in your brand</string>
+    <string name="please_enter_model">Please enter a device model first</string>
+    <string name="please_enter_brand">Please enter a device brand first</string>
+    <string name="please_try_all_models">"The selected category already contains this brand. 
+Please try all the available models of this brand, and if none work you'll be prompted to report it again."</string>
+    <string name="please_try_brands">Your brand is contained in the following categories, and is probably already be supported. Would you like to check them ?</string>
+    <string name="update_from_google_play">UPDATE FROM GOOGLE PLAY</string>
+    <string name="please_enter_function_name">Please enter a name for your function</string>
+    <string name="please_enter_function_code">Please enter code for your function</string>
+    <string name="widget_title">Smart Remote - Widget Button</string>
+    <string name="smart_remote_resizable_widget">Smart Remote - Resizable Widget</string>
+    <string name="smart_remote_action_widget">Smart Remote - Action Widget</string>
+    <string name="action_widget_title">Smart Remote - Action Button</string>
+    <string name="action_widget_unset_message">"This button doesn't have a function assigned to it. The actions currently supported are to open a specific remote, or to show the Floating Remote. What would you like it do do?"</string>
+    <string name="action_widget_action_show_floating_remote">FLOATING REMOTE</string>
+    <string name="action_widget_action_show_remote">SHOW REMOTE</string>
+    <string name="mute">MUTE</string>
+    <string name="exit">EXIT</string>
+    <string name="rec">REC</string>
+    <string name="vol_plus">VOL+</string>
+    <string name="vol_minus">VOL-</string>
+    <string name="channel_plus">CH+</string>
+    <string name="channel_minus">CH-</string>
+    <string name="name_of_learned_function">name of learned function</string>
+    <string name="never_show_this_again">NEVER SHOW THIS AGAIN</string>
+    <string name="modify_button">MODIFY BUTTON</string>
+    <string name="text">TEXT</string>
+    <string name="icon">ICON</string>
+    <string name="move_this_button">MOVE THIS BUTTON</string>
+    <string name="button_color">COLOR</string>
+    <string name="delete_this_button">DELETE THIS BUTTON</string>
+    <string name="rename_this_button">RENAME THIS BUTTON</string>
+    <string name="brand_manufacturer_name">"Brand/Manufacturer's name"</string>
+    <string name="enter_name_here">enter name here</string>
+    <string name="list_remotes">LIST REMOTES</string>
+    <string name="add_remote">ADD REMOTE</string>
+    <string name="add_smart_remote">ADD SMART REMOTE</string>
+    <string name="mute_when_receiving_calls">MUTE WHEN RECEIVING CALLS</string>
+    <string name="use_air_gestures">USE AIR GESTURES</string>
+    <string name="use_dynamic_change_volume">USE DYNAMIC-CHANGE VOLUME</string>
+    <string name="help">HELP</string>
+    <string name="visit_our_facebook_page">VISIT OUR FACEBOOK PAGE</string>
+    <string name="share">SPREAD THE WORD</string>
+    <string name="not_set">NOT SET</string>
+    <string name="start_test">"LET'S TEST YOUR DEVICE"</string>
+    <string name="device_type2">DEVICE TYPE</string>
+    <string name="device_brand">DEVICE BRAND</string>
+    <string name="turn_off_device">YOU SHOULD TURN OFF YOUR DEVICE</string>
+    <string name="turn_off_device_2">and Smart Remote Control will turn it on</string>
+    <string name="turn_off_device_3">to make sure everything is working properly</string>
+    <string name="turn_off_device_4">Should we continue?</string>
+    <string name="well_turn_on_device">"Ok, we'll try now to turn on your device."</string>
+    <string name="did_it_work">DID IT WORK?</string>
+    <string name="sm_sent_command">Smart Remote Control sent a command to</string>
+    <string name="sm_sent_command_2">your device using the best matching remote code.</string>
+    <string name="continu">CONTINUE</string>
+    <string name="power_on">POWER ON</string>
+    <string name="no_try_next">NO , TRY AGAIN</string>
+    <string name="yes">YES</string>
+    <string name="pravious">PRAVIOUS</string>
+    <string name="remote_info">Remote Information</string>
+    <string name="menual">MENUAL</string>
+	<string name="auto">AUTO</string>
+    
+    <string name="next">NEXT</string>
+    <string name="ready_to_test">"Ok , ready to test? "</string>
+    <string name="muta">MOVE</string>
+    <string name="repeat_count">SEND 1 TIME</string>
+    <string name="repeat_count_x">SEND %s TIMES</string>
+    <string name="learn_remote_title">LEARN REMOTE</string>
+    <string name="main_remote">MAIN REMOTE</string>
+    <string name="record_remote">RECORD REMOTE</string>
+    <string name="record_remote_help">"To better and more uniquely identify this remote, we need to know it's type, brand name and model. Don't worry, you have auto-suggestions wherever possible.
+
+As for the layout of the remote, you have two options:
+1. TV-style remote: the buttons are arranged similarly to a usual TV remote, with arrows, volume and channel buttons
+2. Grid-style remote: the buttons are simply placed in an auto-resizing grid."</string>
+    <string name="climate_control_info">"Please note that most Air Conditioning units use infrared commands that are not currently supported by your phone's InfraRed Blaster. These codes are either too long or use unusual frequencies, and that is why you won't find them here."</string>
+    <string name="test_keep_next">After testing this remote, do you want to keep it, or test the next model?</string>
+    <string name="keep">KEEP</string>
+    <string name="try_next">TRY NEXT</string>
+    <string name="enter_model_name">"Before saving this device, please enter a name for this remote, and optionally your device's model name. The model name is shared with us and will help other users find this remote easier.
+
+Example: 
+-Remote Name: Bedroom TV
+-Model Name: STR-D672E4"</string>
+    <string name="recorder_tips">"Tap any button to assign a function to it, or the + button to add a new function to this remote.
+To replace a button, simply keep it press for 2 seconds.
+ Please note that if the remote that you are trying to record uses special commands (often on Air Conditioner remotes) you will not be able to record them as they are incompatible with your phone's IR Blaster."</string>
+    <string name="recorded_remote_prompt">Would you like to continue recording this remote (to replace/add functions) or show and use this remote?</string>
+    <string name="continue_rec">CONTINUE RECORDING</string>
+    <string name="show_remote">SHOW REMOTE</string>
+    <string name="delay">DELAY</string>
+    <string name="command">COMMAND</string>
+    <string name="delay_time">Adjust the delay time in seconds</string>
+    <string name="time_delay">TIME DELAY</string>
+    <string name="seconds">SECONDS</string>
+    <string name="backup_restore">BACKUP/RESTORE REMOTES</string>
+    <string name="restore_text">"You can now  restore your remotes。
+Please note that  performing a restore will wipe all your local remotes and replace them with initial remotes."</string>
+    <string name="backup">BACKUP</string>
+    <string name="restore">RESTORE</string>
+    <string name="last_backup">Last backup:</string>
+    <string name="backup_succesful">Backup complete</string>
+    <string name="restore_succesful">Restore complete</string>
+    <string name="backup_err">"Couldn't perform backup because of a Google Plus error. Please try again later."</string>
+    <string name="floating_remote">FLOATING REMOTE (\"CHAT HEAD\")</string>
+    <string name="chathead_no_buttons">"Tap the + sign on the upper left
+to add a new button to the floating remote."</string>
+    <string name="tasks_add_new">ADD NEW TASK</string>
+    <string name="list_task_title">YOUR TASKS</string>
+    <string name="task_delete_prompt">Are you sure you want to delete this task: %s ?</string>
+    <string name="enter_name_newTask">Please enter a name for your new Task</string>
+    <string name="automated_volume">AUTOMATED TASKS</string>
+    <string name="enter_name_task_null">Please enter a name for your new Task first</string>
+  
+    <string name="did_you_know">DID YOU KNOW?</string>
+    <string name="dd_app_settings">APP SETTINGS</string>
+    <string name="dd_edit_remote">EDIT REMOTE</string>
+    <string name="view_remote">View Remote</string>
+    <string name="down_arrow">▼</string>
+    <string name="macro_add_help">"Congratulations, you've just created a macro! To use it, you will have to assign that to a button. You can either do that in the edit mode of a remote, add it to a smart remote or floating remote (chathead), or assign it to a button in a widget."</string>
+    <string name="upload_remote_optin">"Would you like to automatically upload this remote as you add buttons, so that other people can use it (you don't have to do anything)? 
+ As tens of new devices appear every day, we know the Smart Remote database isn't always up to date, and this will help other people to use it to it's full potential! It's also very helpful to record all the buttons on your plastic remote.
+
+Thank you!"</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="settings_help">"From the settings menu, you can access your list of remotes, as well as change specific options within the app. 
+
+Choose list remotes to see a full list of all device-specific and smart remotes programmed into the app, as well as access macros and learned functions. 
+
+Choose add remote to add a new device-specific remote. 
+
+Choose add smart remote to create a new custom smart remote. 
+
+Select use air gestures to enable channel and volume changing by waving your hand over the phone. Waving left and right will change the channel, while waving up and down will change the volume. Note that this option is only available where the air motion sensors are present. 
+
+Choose backup/restore remotes to make backups of current remotes, and recover remotes from previous backups."</string>
+    <string name="list_remotes_choose_function">"To choose a function you want to assign select a remote containing that command, a macro (you can create a new one while you're there), or a custom command you've added yourself."</string>
+    <string name="tasks_list_help">"Tasks are automated actions which perform when certain conditions are met. For example, you can create a task to execute a command or a macro of commands when your phone rings. 
+
+What really makes these tasks unique is their ability to use system-wide events, like automatically performing tasks defined by you when your phone rings, or at a time chosen by you. Of course, you can also perform commands upon executing air gestures or while you're using the hardware volume buttons within the app."</string>
+    <string name="tips_edit_remote">"You can tap the Settings button in the upper right side of the screen to enter the Edit Mode. Feel free to tap and long-tap buttons to discover it's full functionality!"</string>
+    <string name="tips_edit_buttons">Feel free to tap and long-tap buttons to fully edit or move them!</string>
+    <string name="task_is_recurring">Should this action occur every day at the chosen time, or should it only happen once?</string>
+    <string name="task_once">Only Once</string>
+    <string name="task_daily">Daily</string>
+    <string name="import_server_button_help">"These are some commands that may match your device's remote. Select the one you want to use, then proceed to testing that command in order to add it."</string>
+    <string name="import_server_button_title">COMPATIBLE FUNCTIONS</string>
+    <string name="import_local_button">LOCAL COMMANDS</string>
+    <string name="import_server_button">COMPATIBLE SERVER COMMANDS</string>
+    <string name="import_record_button">RECORD BUTTON</string>
+    <string name="dd_gestures">Gestures Mode</string>
+    <string name="save">SAVE</string>
+    <string name="test">TEST</string>
+    <string name="please_record_more">To record extra buttons you can swipe to reveal the secondary screen on the right side, and tap the + (plus) button to add them.</string>
+    <string name="custom_rom_warning">"It looks like you are using a non-stock ROM, which means that we won't be able to offer support if you are having problems with the IR Blaster. 
+
+Also, implementations in most of the custom ROMs IR Blaster drivers and APIs are partially broken, causing commands to be queued incorrectly. Because of this, you won't be able to keep a button pressed to send a command continuously. 
+
+We're sorry for this, but know that we are working on a fix right now and we will update the app as soon as we find one."</string>
+    <string name="please_report_error">"Whoops, it looks like a file got corrupted and one of your remotes couldn't be read from storage. Would you like to report the log to help us prevent these errors from happening again? Thank you!"</string>
+    <string name="permanently_delete">Do you want to permanently delete this command?</string>
+    <string name="warning">WARNING</string>
+    <string name="htc_learn_own_remote_tip">"Welcome to Smart IR Remote!
+
+To begin, select a type of device you want to control, then it's brand and the model closest to your own device.
+ Can't find it in the list? Just tap RECORD REMOTE to start recording your original remote. This way you're guaranteed to have a remote exactly like your original plastic controller.
+
+ If you experience any kind of problems and you purchased from Google Play please email us at colortigerapps@gmail.com"</string>
+    <string name="samsung_welcome_tip">"Welcome to Smart IR Remote!
+Until you get used to our app we'll bother you from time to time with tips on how to make the best of it. Don't worry though, most of them will only be shown once. 
+
+To begin, select a type of device you want to control, then it's brand and the model closest to your own device.
+ If you experience any kind of problems and you purchased from Google Play please email us at colortigerapps@gmail.com"</string>
+    <string name="tab_browse">BROWSE</string>
+    <string name="tab_search">SEARCH</string>
+    <string name="iunderstand">"I HAVE READ THIS AND 
+I UNDERSTAND"</string>
+    <string name="left_panel">LEFT PANEL</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="animation">Animation</string>
+    
+    <string name="numbers">NUMBERS</string>
+    <string name="more_controls">MORE CONTROLS</string>
+    <string name="settings_edit">EDIT</string>
+    <string name="settings_rename">RENAME</string>
+    <string name="tip_hidden_tv_panel">"If you had any commands set on the left panel which you still want to use, you will have to import each of them individually. Don't worry though, they are not lost, and if you re-enable the left panel it will be just as you left it."</string>
+    <string name="tip_server_commands">" Missing a button? Try going to the "<b>EDIT</b> Mode and tap any <b>+</b> button to find, test and import some <b>compatible server commands</b>". You might even find some commands you didn't know that exist! "</string>
+    <string name="remote_name_here">personalized remote name</string>
+    <string name="model_name_here">(optional) device model</string>
+    <string name="tip_edit_mode">" - On the left panel tap a button once to re-assign it
+ - On the right panel tap a button once to move it
+ - Long tap a button to edit it
+ - Use \"+\" and "<b>LOCAL COMMANDS</b>" to import a button from your other remotes
+ - Use \"+\" and "<b>COMPATIBLE SERVER COMMANDS</b>" to search for missing buttons or replacements for buttons not working on this remote
+ "</string>
+    <string name="cannot_text_empty_btn">Please assign a function to this button first.</string>
+    <string name="hide_unset_buttons">HIDE UNSET BUTTONS</string>
+    <string name="haptic_feedback">HAPTIC FEEDBACK</string>
+    <string name="restore_remotes">RESTORE REMOTES</string>
+    <string name="gesture_mode">GESTURES</string>
+    <string name="widget_edit_button">WIDGET EDIT BUTTON</string>
+    <string name="tasker_chathead_settings">TASKER SETTINGS</string>
+    <string name="tasker_chathead_description">Automatically turn on/off the floating remote</string>
+    <string name="tasker_chathead_on">FLOATING REMOTE ON</string>
+    <string name="tasker_chathead_off">FLOATING REMOTE OFF</string>
+    <string name="no_compatible_server_cmds">There are no available compatible server commands.</string>
+    <string name="most_models_btn_info">You have just added a <b>\"MOST MODELS\"</b>" remote. This means that you'll get the best coverage of buttons with this remote, but you may have buttons not useful to your device, and you can simply delete these buttons in the "<b>EDIT</b> mode.</string>
+    
+     <string name="remote_isnot_connected">REMOTE IS NOT CONNECTED</string>
+    <string name="remote_is_connected">REMOTE IS CONNECTED</string>
+    <string name="test_button">TEST</string>
+    <string name="button_info">LEARN BUTTON INFO</string>
+    
+    <string name="clean_database">CLEAN REMOTE DATABASE</string>
+     <string name="power_change">If the device change the power supply,\n Will terminal the apk first, \nare you sure?</string>
+      <string name="no_device_quit">The remote is not exist, \n this funcation is invalid.</string>
+     
+</resources>

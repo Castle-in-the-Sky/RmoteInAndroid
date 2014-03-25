@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Message ID -->
+	<item name="MESSAGE_STATE_READY" type="id"/>
+    <item name="MESSAGE_READ" type="id"/>
+    <item name="MESSAGE_WRITE" type="id"/>
+    <item name="MESSAGE_TOAST" type="id"/>
+    <item name="REQUEST_OPTIONS" type="id"/>
+    <item name="MESSAGE_SEND" type="id"/>
+    <item name="MSG_LEARN_END" type="id"/>
+    <item name="MSG_OPTION_STUDY" type="id"/>
+    <item name="MSG_OPTION_LIST" type="id"/>
+    <item name="MSG_OPTION_ABOUT" type="id"/>
+    <item name="MSG_OPTION_QUIT" type="id"/>
+    <item name="MSG_OPTION_SETUP" type="id"/>
+     <item name="REQUEST_STUDY" type="id"/>
+      <item name="REMOTE_SEND" type="id"/>
+     <item name="LEARN_START" type="id"/>
+      <item name="LEARN_STOP" type="id"/>
+    <item name="LEARN_TIMEOUT" type="id"/>
+    <item name="LEARN_READ" type="id"/>
+    <item name="LEARN_RESUIT" type="id"/>
+    <item name="AUTO_UPDATE_UI" type="id"/>
+    <item name="FINISH_CODE" type="id"/>
+    <!-- MainActivity -->
+
+</resources>

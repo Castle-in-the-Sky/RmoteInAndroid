@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.audiomobile.remote"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+
+    <!--
+	<uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    -->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateAlwaysHidden" >
+        <activity
+            android:name="com.audiomobile.main.Start"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+          <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+       
+      
+        <activity
+            android:name="com.audiomobile.remote.PJTRemote"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.audiomobile.remote.AirRemote"
+            android:screenOrientation="portrait" >
+        </activity>
+    
+       
+        <activity
+            android:name="com.audiomobile.settings.Learning"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name="com.audiomobile.main.Main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.audiomobile.settings.SelectDeviceType"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.audiomobile.settings.BrandListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.audiomobile.main.RemoteStudy"
+            android:screenOrientation="portrait"
+            android:theme="@style/myDialog" >
+        </activity>
+        <activity
+            android:name="com.audiomobile.settings.RemoteSelection"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.audiomobile.settings.Settings"
+            android:screenOrientation="portrait" >
+             
+        </activity>
+        <activity
+            android:name="com.audiomobile.settings.RemoteTest"
+            android:screenOrientation="portrait" >
+             
+        </activity>
+        <activity
+            android:name="com.audiomobile.main.SetupActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.audiomobile.settings.ListRemotes"
+            android:screenOrientation="portrait" >
+        </activity>
+		 <activity
+            android:name="com.audiomobile.remote.LearnRemote"
+           
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <service
+            android:name="com.audiomobile.service.RemoteUpdateService"
+            android:enabled="true" />
+        <service
+            android:name="com.audiomobile.service.PowerSupplyService"
+             />
+
+        <receiver android:name=".HeadsetPlugReceiver" >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.HEADSET_PLUG"
+                    android:enabled="true" >
+                </action>
+            </intent-filter> 
+        </receiver>
+    </application>
+
+</manifest>

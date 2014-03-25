@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/tv_main_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/tvButtons1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tv_key1"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="5.0dip"
+                android:paddingRight="5.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key1"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_key2"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key2"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_key3"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key3"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_power"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/power_selector"
+                android:ellipsize="end"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text=""
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tvButtons2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/remote_button_margin_top"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tv_key4"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key4"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_key5"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key5"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_key6"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key6"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_av"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_av"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tvButtons3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/remote_button_margin_top"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tv_key7"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key7"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_key8"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key8"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_key9"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key9"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_mute"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_mute"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tvButtons4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/remote_button_margin_top"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tv_menu"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_menu"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_key0"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key0"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_key10"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_key10"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+
+            <Button
+                android:id="@+id/tv_back"
+                android:layout_width="0.0dip"
+                android:layout_height="52.0dip"
+                android:layout_marginLeft="2.0dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/normal_button_selector"
+                android:ellipsize="end"
+                android:hapticFeedbackEnabled="false"
+                android:lines="2"
+                android:maxLines="2"
+                android:paddingBottom="6.0dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="8.0dip"
+                android:paddingTop="0.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="@string/tv_back"
+                android:textColor="#ffacaeb0"
+                android:textSize="13.0dip" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.0dip"
+            android:src="@drawable/device_select_separator" />
+
+        <RelativeLayout
+            android:id="@+id/commandLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="300.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:padding="0.0dip" >
+
+            <com.audiomobile.ui.ImageViewOpaque
+                android:id="@+id/volplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hapticFeedbackEnabled="false"
+                android:src="@drawable/remote_top_left" />
+
+            <TextView
+                android:id="@+id/volPlusTXT"
+                android:layout_width="100.0dip"
+                android:layout_height="80.0dip"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:paddingLeft="4.0dip"
+                android:paddingTop="4.0dip"
+                android:text="@string/vol_plus"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+
+            <com.audiomobile.ui.ImageViewOpaque
+                android:id="@+id/volminus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:hapticFeedbackEnabled="false"
+                android:src="@drawable/remote_bottom_leftvol" />
+
+            <TextView
+                android:id="@+id/volMinusTXT"
+                android:layout_width="100.0dip"
+                android:layout_height="100.0dip"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:paddingBottom="4.0dip"
+                android:paddingLeft="4.0dip"
+                android:text="@string/vol_minus"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+
+            <com.audiomobile.ui.ImageViewOpaque
+                android:id="@+id/chplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:hapticFeedbackEnabled="false"
+                android:src="@drawable/remote_top_rightchannel" />
+
+            <TextView
+                android:id="@+id/chPlusTXT"
+                android:layout_width="100.0dip"
+                android:layout_height="80.0dip"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:paddingRight="4.0dip"
+                android:paddingTop="4.0dip"
+                android:text="@string/channel_plus"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+
+            <com.audiomobile.ui.ImageViewOpaque
+                android:id="@+id/chminus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:hapticFeedbackEnabled="false"
+                android:src="@drawable/remote_button_rightchannel" />
+
+            <TextView
+                android:id="@+id/chMinusTXT"
+                android:layout_width="100.0dip"
+                android:layout_height="100.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:hapticFeedbackEnabled="false"
+                android:paddingBottom="4.0dip"
+                android:paddingRight="4.0dip"
+                android:text="@string/channel_minus"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="400.0dip"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:padding="20.0dip" >
+
+                <com.audiomobile.ui.ImageViewOpaque
+                    android:id="@+id/arrowup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hapticFeedbackEnabled="false"
+                    android:src="@drawable/arrow_upselector" />
+
+                <com.audiomobile.ui.ImageViewOpaque
+                    android:id="@+id/arrowleft"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hapticFeedbackEnabled="false"
+                    android:src="@drawable/arrow_leftselector" />
+
+                <com.audiomobile.ui.ImageViewOpaque
+                    android:id="@+id/arrowright"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hapticFeedbackEnabled="false"
+                    android:src="@drawable/arrow_rightselector" />
+
+                <com.audiomobile.ui.ImageViewOpaque
+                    android:id="@+id/arrowbottom"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:hapticFeedbackEnabled="false"
+                    android:src="@drawable/arrow_downselector" />
+
+                <com.audiomobile.ui.ImageViewOpaque
+                    android:id="@id/ok"
+                    android:layout_width="90.0dip"
+                    android:layout_height="90.0dip"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:hapticFeedbackEnabled="false"
+                    android:src="@drawable/remote_center_selector"
+                    android:text="OK" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <!--
+    <LinearLayout
+        android:id="@+id/tvButtons5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tv_chadd"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/tv_chadd"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+
+        <Button
+            android:id="@+id/tv_up"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/up"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+
+        <Button
+            android:id="@+id/tv_voladd"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/tv_voladd"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvButtons6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tv_left"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/left"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+
+        <Button
+            android:id="@+id/tv_ok"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/tv_ok"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+
+        <Button
+            android:id="@+id/tv_right"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/right"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tvButtons7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/tv_chsub"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/tv_chsub"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+
+        <Button
+            android:id="@+id/tv_down"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/down"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+
+        <Button
+            android:id="@+id/tv_volsub"
+            android:layout_width="0.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/normal_button_selector"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="false"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingBottom="6.0dip"
+            android:paddingLeft="8.0dip"
+            android:paddingRight="8.0dip"
+            android:paddingTop="0.0dip"
+            android:shadowColor="#ff000000"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/tv_volsub"
+            android:textColor="#ffacaeb0"
+            android:textSize="13.0dip" />
+    </LinearLayout>
+        -->
+    </LinearLayout>
+
+</ScrollView>

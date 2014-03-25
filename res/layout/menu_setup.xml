@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_remote"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/setup_select"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="20.0dip" >
+
+        <ImageButton
+            android:id="@+id/setup_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/remote_select_right_selector" />
+
+        <ImageButton
+            android:id="@+id/setup_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/remote_select_left_selector" />
+
+        <TextView
+            android:id="@+id/setup_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/setup_right"
+            android:layout_toRightOf="@id/setup_left"
+            android:background="@drawable/control_topbox_selector"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5.0dip"
+            android:text="@string/set_menu"
+            android:textSize="24.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/setup_right"
+            android:layout_toRightOf="@id/setup_left"
+            android:background="@color/back_black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/control_midbox" >
+
+        <RelativeLayout
+            android:id = "@+id/vibrate_set"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="60dp"
+            >
+
+            <TextView
+                android:id="@+id/vibrate_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/vibrate"
+                android:textColor="@color/text_white"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/vibrate_cb"
+                style="@style/CustomCheckboxTheme"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40dp" />
+        </RelativeLayout>
+        
+         <RelativeLayout
+             android:id = "@+id/terminal_set"
+            android:layout_below="@id/vibrate_set"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+             >
+
+            <TextView
+                android:id="@+id/terminal_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/terminal"
+                android:textColor="@color/text_white"
+                android:textSize="24sp" />
+
+            <CheckBox
+                android:id="@+id/terminal_cb"
+                style="@style/CustomCheckboxTheme"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/leftTabRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/plain_rounded_bg"
+    android:orientation="vertical"
+    android:padding="0.0dip" >
+
+    <RelativeLayout
+        android:id="@+id/settingLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9.0dip"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/settingText"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:shadowColor="#ff000000"
+            android:shadowDy="-1.0"
+            android:shadowRadius="2.0"
+            android:text="@string/settings_title"
+            android:textColor="#ff7d8081"
+            android:textSize="18.0dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/settingsBck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="11.0dip"
+            android:src="@drawable/control_settings_close"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tabScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/settingLayout"
+        android:layout_marginBottom="48.0dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layoutList"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_weight="70.0"
+            android:background="@drawable/setup_final_list_bg_plain" >
+
+            <ScrollView
+                android:id="@+id/scroll1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scrollbars="none" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="10.0dip"
+                    android:paddingTop="20.0dip" >
+
+                    <RelativeLayout
+                        android:id="@+id/list_remotes"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+                        android:onClick="onClick"
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="15.0dip" >
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:text="@string/list_remotes"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="3.0dip"
+                            android:src="@drawable/setting_list_remotes" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:background="@drawable/device_select_separator" />
+
+                    <RelativeLayout
+                        android:id="@+id/add_remote"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+                        android:onClick="onClick"
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="15.0dip" >
+
+                        <TextView
+                            android:id="@+id/txt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/add_remote"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/setting_add_remote" />
+                    </RelativeLayout>
+
+                 
+                   
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:background="@drawable/device_select_separator" />
+
+                    <RelativeLayout
+                        android:id="@+id/learn_remote"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+                        android:onClick="onClick"
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="15.0dip" >
+
+                        <TextView
+                            android:id="@+id/txt9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/learn_remote"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="2.0dip"
+                            android:src="@drawable/setting_add_smart_remote" />
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/learn_remote_separator"
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:background="@drawable/device_select_separator"
+                        android:visibility="gone" />
+
+                    <RelativeLayout
+                        android:id="@+id/showUI_when_send"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+                        android:onClick="onClick"
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="10.0dip"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/sr1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="4.0dip"
+                            android:text="@string/mute_when_receiving_calls"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:id="@+id/showuiwhensend"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="2.0dip"
+                            android:src="@drawable/check_on" />
+                    </RelativeLayout>
+
+                   
+
+
+                   
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:background="@drawable/device_select_separator" />
+
+                    <RelativeLayout
+                        android:id="@+id/backup_restore"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+                        android:onClick="onClick"
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="15.0dip" >
+
+                        <TextView
+                            android:id="@+id/txt51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/backup_restore"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="2.0dip"
+                            android:src="@drawable/settings_icon_backup" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:background="@drawable/device_select_separator" />
+
+                    <RelativeLayout
+                        android:id="@+id/vibrations"
+                        android:layout_width="fill_parent"
+                        android:layout_height="41.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:onClick="onClick"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+                        
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="10.0dip" >
+
+                        <TextView
+                            android:id="@+id/vb1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="4.0dip"
+                            android:text="@string/vibration"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:id="@+id/vb2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="2.0dip"
+                            
+                            android:src="@drawable/check_off" />
+                    </RelativeLayout>
+ 					<View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:background="@drawable/device_select_separator" />
+                    <RelativeLayout
+                        android:id="@+id/audio_exist"
+                        android:layout_width="fill_parent"
+                        android:layout_height="41.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+           				android:onClick="onClick"
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="10.0dip" >
+
+                        <TextView
+                            android:id="@+id/ap1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="4.0dip"
+                            android:text="@string/audio_exist"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:id="@+id/ap2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="2.0dip"
+                            
+                            android:src="@drawable/check_off" />
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:background="@drawable/device_select_separator" />
+                    <RelativeLayout
+                        android:id="@+id/terminal_power"
+                        android:layout_width="fill_parent"
+                        android:layout_height="41.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+                       android:onClick="onClick"
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="10.0dip" >
+
+                        <TextView
+                            android:id="@+id/tp1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="4.0dip"
+                            android:text="@string/power_on"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:id="@+id/tp2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="2.0dip"
+                            
+                            android:src="@drawable/check_off" />
+                    </RelativeLayout>
+                     <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="2.0dip"
+                        android:background="@drawable/device_select_separator" />
+                     <RelativeLayout
+                        android:id="@+id/send_animation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="41.0dip"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_marginRight="15.0dip"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/report_missing_selector"
+                        android:gravity="center_vertical"
+                       android:onClick="onClick"
+                        android:paddingLeft="15.0dip"
+                        android:paddingRight="10.0dip" >
+
+                        <TextView
+                            android:id="@+id/sa1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="4.0dip"
+                            android:text="@string/animation"
+                            android:textSize="18.0sp" />
+
+                        <ImageView
+                            android:id="@+id/sa2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="2.0dip"
+                            
+                            android:src="@drawable/check_off" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:id="@+id/scroll_shade"
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10.0dip"
+                android:background="@drawable/list_scroll_shade" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/setup_final_list3" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/chooseLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutList"
+            android:layout_marginTop="15.0dip"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/chooseDeviceText2"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:gravity="center"
+                android:shadowColor="#ff000000"
+                android:shadowDy="-1.0"
+                android:shadowRadius="2.0"
+                android:text="@string/settings_title2"
+                android:textColor="#ff7d8081"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutList2"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_below="@+id/chooseLayout2"
+            android:layout_marginTop="7.0dip"
+            android:layout_weight="30.0"
+            android:background="@drawable/setup_final_list_bg" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:paddingBottom="10.0dip"
+                android:paddingTop="10.0dip" >
+
+                <RelativeLayout
+                    android:id="@+id/help"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/report_missing_selector"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="15.0dip" >
+
+                    <TextView
+                        android:id="@+id/txt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="@string/help"
+                        android:textSize="18.0sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="3.0dip"
+                        android:src="@drawable/setting_help" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/contact_us"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/report_missing_selector"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="15.0dip" >
+
+                    <TextView
+                        android:id="@+id/txt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/contact_us"
+                        android:textSize="18.0sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="5.0dip"
+                        android:src="@drawable/setting_share" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/exit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_marginRight="15.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/report_missing_selector"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    android:paddingLeft="15.0dip"
+                    android:paddingRight="15.0dip" >
+
+                    <TextView
+                        android:id="@+id/txt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/exit"
+                        android:textSize="18.0sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="2.0dip"
+                        android:src="@drawable/settings_tasks_icon" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/setup_final_list3" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/setFooter"
+        layout="@layout/createdby" />
+
+</RelativeLayout>

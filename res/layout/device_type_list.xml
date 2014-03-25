@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/device_select_bg"
+    >
+ <RelativeLayout
+        android:id="@+id/chooseLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/dts_text"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:shadowColor="#ff000000"
+            android:shadowDy="-1.0"
+            android:shadowRadius="2.0"
+            android:text="@string/title_device_type"
+            android:textColor="#ff7d8081"
+            android:textSize="18.0dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/dtl_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10.0dip"
+            android:src="@drawable/control_settings_close"
+             />
+    </RelativeLayout>
+ <!--  
+      <RelativeLayout
+        android:id="@+id/dtl_select"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="20.0dip"
+        >
+
+        <ImageButton
+            android:id="@+id/dtl_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/remote_select_right_selector" />
+
+        <ImageButton
+            android:id="@+id/dtl_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/remote_select_left_selector" />
+
+        <TextView
+            android:id="@+id/dtl_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/dtl_right"
+            android:layout_toRightOf="@id/dtl_left"
+            android:background="@drawable/control_topbox_selector"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5.0dip"
+            android:text="@string/title_device_type"
+            android:textSize="24.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toLeftOf="@id/dtl_right"
+            android:layout_toRightOf="@id/dtl_left"
+            android:background="@color/back_black" />
+    </RelativeLayout>
+ 
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/control_midbox"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+          	
+            > 
+            <TextView
+		  	android:id="@+id/dtl_name"
+		  	android:layout_width="wrap_content"
+		  	android:layout_marginLeft="10dp"
+			android:layout_height="wrap_content"
+			android:hint="@string/name"
+			android:layout_centerVertical="true"
+			android:textColor="@color/text_white"
+			android:textSize="24sp"
+		 />
+            <Button
+		  	android:id="@+id/dtl_change_name"
+		  	android:layout_alignParentRight="true"
+		    android:layout_marginRight="20dp"
+		  	android:layout_width="80dp"
+			android:layout_height="wrap_content"
+			android:text="@string/input"
+			android:textColor="@color/button_white"
+			android:background="@drawable/button_red_con"
+		 />
+     </RelativeLayout>  
+    -->      
+       <FrameLayout
+        android:id="@+id/layoutList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/chooseLayout"
+        android:layout_marginBottom="50.0dip"
+        android:background="@drawable/popup_clone" >
+ <!--  
+        <LinearLayout
+            android:id="@+id/search"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="25.0dip"
+            android:paddingLeft="30.0dip"
+            android:paddingRight="30.0dip"
+            android:paddingTop="21.0dip" >
+
+            <TextView
+                android:id="@+id/txtt1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="-1.0"
+                android:shadowRadius="2.0"
+                android:text="Device Type"
+                android:textColor="#ff7d8081"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/deviceType"
+                android:layout_width="fill_parent"
+                android:layout_height="44.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:hint="Set Top Box" />
+
+            <TextView
+                android:id="@+id/txtt2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="-1.0"
+                android:shadowRadius="2.0"
+                android:text="Brand"
+                android:textColor="#ff7d8081"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+
+           
+
+           
+        </LinearLayout>
+-->
+        <ListView
+            android:id="@+id/listView_type"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/device_select_separator"
+           
+            android:indicatorLeft="8.0dip"
+            android:indicatorRight="52.0dip"
+            android:padding="9.0dip"
+            android:scrollbars="none" />
+
+       
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/setup_clone" />
+    </FrameLayout>
+
+   
+
+    <include layout="@layout/createdby" />
+    
+</RelativeLayout>

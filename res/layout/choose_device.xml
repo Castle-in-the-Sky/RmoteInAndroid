@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/device_select_bg"
+    android:orientation="vertical"
+    android:padding="0.0dip" >
+
+    <RelativeLayout
+        android:id="@+id/chooseLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10.0dip"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/chooseDeviceText"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center"
+            android:shadowColor="#ff000000"
+            android:shadowDy="-1.0"
+            android:shadowRadius="2.0"
+            android:text="@string/choose_devices"
+            android:textColor="#ff7d8081"
+            android:textSize="18.0dip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10.0dip"
+            android:src="@drawable/control_settings_close"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_below="@id/chooseLayout"
+        android:layout_marginBottom="10.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tab_browse"
+            android:layout_width="0.0dip"
+            android:layout_height="50.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_left_selected"
+            android:gravity="center"
+            android:hint="bold"
+            android:shadowColor="#ff000000"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/tab_browse"
+            android:textSize="17.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tab_search"
+            android:layout_width="0.0dip"
+            android:layout_height="50.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/tab_right_normal"
+            android:gravity="center"
+            android:hint="normal"
+            android:shadowColor="#ff000000"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="@string/tab_search"
+            android:textSize="17.0sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layoutList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/chooseLayout"
+        android:layout_marginBottom="50.0dip"
+        android:background="@drawable/popup_clone" >
+
+        <LinearLayout
+            android:id="@+id/search"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingBottom="25.0dip"
+            android:paddingLeft="30.0dip"
+            android:paddingRight="30.0dip"
+            android:paddingTop="21.0dip" >
+
+            <TextView
+                android:id="@+id/txtt1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="-1.0"
+                android:shadowRadius="2.0"
+                android:text="Device Type"
+                android:textColor="#ff7d8081"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/deviceType"
+                android:layout_width="fill_parent"
+                android:layout_height="44.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:hint="Set Top Box" />
+
+            <TextView
+                android:id="@+id/txtt2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5.0dip"
+                android:shadowColor="#ff000000"
+                android:shadowDy="-1.0"
+                android:shadowRadius="2.0"
+                android:text="Brand"
+                android:textColor="#ff7d8081"
+                android:textSize="18.0dip"
+                android:textStyle="bold" />
+
+           
+
+           
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewType"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@drawable/device_select_separator"
+            android:fastScrollEnabled="true"
+            android:indicatorLeft="8.0dip"
+            android:indicatorRight="52.0dip"
+            android:padding="9.0dip"
+            android:scrollbars="none" />
+
+       
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/setup_clone" />
+    </FrameLayout>
+
+   
+
+    <include layout="@layout/createdby" />
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="menu_name_base">
+　　        <item>Select</item>
+　　        <item>Learn</item>
+　　        <item>Setting</item>
+　　        <item>About</item>
+　　        <item>Quit</item>
+	 <item>Return</item>
+   
+　　    </string-array>
+     
+     
+     
+     
+<string-array name="menu_image_base">
+　　        <item>@drawable/menu_learn</item>
+　　        <item>@drawable/menu_settings</item>
+　　        <item>@drawable/menu_quit</item>
+  	 <item>@drawable/menu_return</item>
+　　    </string-array>
+	
+	  
+ <string-array name="type_array">
+        <item>TV</item>
+        <item>DVD</item>
+        <item>STB</item>
+        <item>FAN</item>
+        <item>PJT</item>
+        <item>AIR</item>
+        <item>LIGHT</item>
+        <item>CAMERA</item>
+        <item>AMPLIFY</item>
+ </string-array>
+ <string-array name="tv_key">
+　　        <item>tv_power</item>
+　　        <item>tv_mute</item>
+　　        <item>tv_key0</item>
+　　        <item>tv_key1</item>
+	 <item>tv_key2</item>
+     <item>tv_key3</item>
+     <item>tv_key4</item>
+     <item>tv_key5</item>
+     <item>tv_key6</item>
+     <item>tv_key7</item>
+     <item>tv_key8</item>	
+     <item>tv_key9</item>	
+     <item>tv_key10</item>	
+     <item>tv_menu</item>	
+     <item>tv_chadd</item>	
+     <item>tv_chsub</item>	
+     <item>tv_voladd</item>	
+     <item>tv_volsub</item>	
+     <item>tv_ok</item>	
+     <item>tv_av</item>	
+     <item>tv_back</item>	      
+　　    </string-array>  
+     
+  <string-array name="stb_key">
+    <item>stb_wait</item>
+    <item>stb_watch</item>
+    <item>stb_back</item>
+    <item>stb_key0</item>
+    <item>stb_key1</item>
+    <item>stb_key2</item>
+    <item>stb_key3</item>
+    <item>stb_key4</item>
+    <item>stb_key5</item>
+    <item>stb_key6</item>
+    <item>stb_key7</item>
+    <item>stb_key8</item>
+    <item>stb_key9</item>
+    <item>stb_chadd</item>
+    <item>stb_chsub</item>
+    <item>stb_voladd</item>
+    <item>stb_volsub</item>
+    <item>stb_up</item>
+    <item>stb_down</item>
+    <item>stb_left</item>
+    <item>stb_right</item>
+    <item>stb_ok</item>
+    <item>stb_menu</item>
+　　    </string-array>  
+
+ <string-array name="dvd_key">
+    <item>dvd_power</item>
+    <item>dvd_mute</item>
+    <item>dvd_quickforward</item>
+    <item>dvd_quickback</item>
+    <item>dvd_play</item>
+    <item>dvd_stop</item>
+    <item>dvd_upsong</item>
+    <item>dvd_downsong</item>
+    <item>dvd_pause</item>
+    <item>dvd_av</item>
+    <item>dvd_title</item>
+    <item>dvd_open</item>
+    <item>dvd_menu</item>
+    <item>dvd_back</item>
+    <item>dvd_up</item>
+    <item>dvd_down</item>
+    <item>dvd_left</item>
+    <item>dvd_right</item>
+    <item>dvd_ok</item>
+　　    </string-array>  
+    <!-- fan -->
+ <string-array name="fan_key">
+    <item>fans_power</item>
+    <item>fans_mode</item>
+    <item>fans_li</item>
+    <item>fans_speed</item>
+    <item>fans_key0</item>
+    <item>fans_speedlow</item>
+    <item>fans_speedmiddle</item>
+    <item>fans_speedhight</item>
+    <item>fans_sleep</item>
+    <item>fans_freq</item>
+    <item>fans_cool</item>
+    <item>fans_timer</item>
+    <item>fans_light</item>
+    <item>fans_key1</item>
+    <item>fans_key2</item>
+    <item>fans_key3</item>
+    <item>fans_key4</item>
+    <item>fans_key5</item>
+    <item>fans_key6</item>
+    <item>fans_key7</item>
+    <item>fans_key8</item>
+    <item>fans_key9</item>
+　　    </string-array>  
+   
+    <!-- pjt -->
+ <string-array name="pjt_key">
+    <item>pjt_power_on</item>
+    <item>pjt_power_off</item>
+    <item>pjt_computer</item>
+    <item>pjt_video</item>
+    <item>pjt_sign</item>
+    <item>pjt_zoomadd</item>
+    <item>pjt_zoomsub</item>
+    <item>pjt_pictureadd</item>
+    <item>pjt_picturesub</item>
+    <item>pjt_brightness</item>
+    <item>pjt_auto</item>
+    <item>pjt_exit</item>
+    <item>pjt_menu</item>
+    <item>pjt_pause</item>
+    <item>pjt_mute</item>
+    <item>pjt_voladd</item>
+    <item>pjt_volsub</item>
+    <item>pjt_up</item>
+    <item>pjt_down</item>
+    <item>pjt_left</item>
+    <item>pjt_right</item>
+    <item>pjt_ok</item>
+　　    </string-array>         
+
+</resources>
+
+
+
